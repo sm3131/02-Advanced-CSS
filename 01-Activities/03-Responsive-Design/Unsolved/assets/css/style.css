@@ -16,7 +16,7 @@ header {
 
 /* 
 What happens when we set the display property to flex? 
-TODO: Write your answer here 
+TODO: The flex property creates a one dimensional layout where children in containers can be layed out in any direction and become flexible in their sizes to either shrink or grow and fill spaces. 
 */
 nav {
   display: flex;
@@ -32,7 +32,7 @@ nav a {
 
 /* 
 What is the flex-wrap property? 
-TODO: Write your answer here 
+TODO: This property either allows items to flow onto multiple lines or remain on a single line
 */
 main {
   display: flex;
@@ -56,7 +56,7 @@ footer {
 
 /* 
 What does the justify-content property do? 
-TODO: Write your answer here 
+TODO: This property determines how the space around and between items is distributed along the main flex axis
 */
 .products {
   flex: 4;
@@ -70,7 +70,7 @@ TODO: Write your answer here
 /* 
 What is the flex property a shorthand property for?
 What is it doing here? 
-TODO: Write your answer here 
+TODO: This is shorthand for flex grow, flex shrink, and flex-basis/ In this example the grow and shrink values are set to 0 and the flex-basis is set to 400px so the items won't grow or shrink to take up or compensate for space the items will only be sized big enough to fit their content and then the flex-basis value means the items will never become smaller than 400px
 */
 .card {
   border-style: solid;
@@ -95,7 +95,7 @@ TODO: Write your answer here
 /* 
 What does the flex-direction property define?
 What is it doing here? 
-TODO: Write your answer here 
+TODO: This determines which direction the flex items will run essentially it determines the main axis so if it is set to row the items will be lined up along the horizontal axis if it is set to column they will run along the vertical axis
 */
 @media screen and (max-width: 768px) {
   main,
